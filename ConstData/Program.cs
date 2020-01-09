@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConstData
 {
@@ -14,7 +10,7 @@ namespace ConstData
             static MyMathClass()
             { PI = 3.14; }
         }
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("***** Fun with Const *****\n");
             Console.WriteLine("The value of PI is: {0}", MyMathClass.PI);
